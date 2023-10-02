@@ -52,8 +52,10 @@ Physical Storage -> това, което виждаме и с което раб�
 NUMERIC:
 >**BIT**(1-bit), **TINYINT**(8-bit), **SMALLINT**(2-bites),
 >**INT**(4-bites), **BIGINT**(8-bites), 
+>**FLOAT**, **REAL**, **DECIMAL** (precision, scale)
 
-
+TEXTUAL:
+>**CHAR**(size) -> fixed size string
 
 
 
