@@ -56,6 +56,7 @@ NUMERIC:
 
 TEXTUAL:
 >**CHAR**(size) -> fixed size string
+>**VARCHAR**(size) -> variable size string
 
 
 
