@@ -57,6 +57,8 @@ NUMERIC:
 TEXTUAL:
 >**CHAR**(size) -> fixed size string
 >**VARCHAR**(size) -> variable size string
+>**NCHAR**(size) -> Unicode fixed size string              -> **ЗА КИРИЛИЦА**
+>**NVARCHAR**(size) -> Unicode variable size string
 
 
 
