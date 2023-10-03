@@ -60,11 +60,13 @@ TEXTUAL:
 >**NCHAR**(size) -> Unicode fixed size string              -> **ЗА КИРИЛИЦА**
 >**NVARCHAR**(size) -> Unicode variable size string
 
+VarChar и NVarChar се използват най-често, защото се оптимизират и ако зададеш дължина могат да заемат нужното пространство, а не цялото предвидено!!!
+
 BINARY DATA:
 >**BINARY**(size) -> fixed length sequence of bits
 >**VARBINARY**(size) -> a sequence of bits, 1-8000 bytes or **MAX 2GB** 
 
-DATE & TIME
+DATE & TIME -> https://prnt.sc/2S3WpLzEp4Zk
 >**DATE** - date in range 0001-01-01 through 9999-12-31
 >**DATETIME** - date and time with precision of 1/300 sec
 >**DATETIME2** - type that has larger date range
@@ -72,6 +74,6 @@ DATE & TIME
 >**TIME** - defines a time of day (no time zone)
 >**DATETIMEOFFSET** - date and time that has time zone
 
-VarChar и NVarChar се използват най-често, защото се оптимизират и ако зададеш дължина могат да заемат нужното пространство, а не цялото предвидено!!!
+
 
 
