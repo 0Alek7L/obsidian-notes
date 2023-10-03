@@ -77,6 +77,7 @@ DATE & TIME -> https://prnt.sc/2S3WpLzEp4Zk
 SQL
 
 **CREATE DATABASE** Employees
+
 **CREATE TABLE** People
 (
 	Id **INT NOT NULL** ,
@@ -84,6 +85,15 @@ SQL
 	FirstName **VARCHAR(50)** ,
 	LastName **VARCHAR(50)**
 )
-**SELECT** * **FROM Employees**//DB Name 
+
+**SELECT** * **FROM Employees**//DB Name
+```
+SELECT
+	FirstName,
+	LastName
+FROM Employees
+WHERE FirstName = 'Gosho'
+```
+
 
 
