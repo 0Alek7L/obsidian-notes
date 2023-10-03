@@ -60,6 +60,13 @@ TEXTUAL:
 >**NCHAR**(size) -> Unicode fixed size string              -> **ЗА КИРИЛИЦА**
 >**NVARCHAR**(size) -> Unicode variable size string
 
+BINARY DATA:
+>**BINARY**(size) -> fixed length sequence of bits
+>**VARBINARY**(size) -> a sequence of bits, 1-8000 bytes or **MAX 2GB** 
+
+DATE & TIME
+>**DATE** - date in range 0001-01-01 through 9999-12-31
+
 VarChar и NVarChar се използват най-често, защото се оптимизират и ако зададеш дължина могат да заемат нужното пространство, а не цялото предвидено!!!
 
 
