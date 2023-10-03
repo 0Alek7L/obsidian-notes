@@ -60,5 +60,6 @@ TEXTUAL:
 >**NCHAR**(size) -> Unicode fixed size string              -> **ЗА КИРИЛИЦА**
 >**NVARCHAR**(size) -> Unicode variable size string
 
+VarChar и NVarChar се използват най-често, защото се оптимизират и ако зададеш дължина могат да заемат нужното пространство, а не цялото предвидено!!!
 
 
