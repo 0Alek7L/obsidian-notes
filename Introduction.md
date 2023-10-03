@@ -66,6 +66,11 @@ BINARY DATA:
 
 DATE & TIME
 >**DATE** - date in range 0001-01-01 through 9999-12-31
+>**DATETIME** - date and time with precision of 1/300 sec
+>**DATETIME2** - type that has larger date range
+>**SMALLDATETIME** - date and time (1min precision) ->до 2079
+>**TIME** - defines a time of day (no time zone)
+>**DATETIMEOFFSET** - date and time that has time zone
 
 VarChar и NVarChar се използват най-често, защото се оптимизират и ако зададеш дължина могат да заемат нужното пространство, а не цялото предвидено!!!
 
