@@ -95,5 +95,9 @@ FROM Employees
 WHERE FirstName = 'Gosho'
 ```
 
-
+How to add a column to a table
+```
+ALTER TABLE Minions
+ADD TownId INT -> now this adds a TownId column
+```
 
