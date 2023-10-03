@@ -74,6 +74,16 @@ DATE & TIME -> https://prnt.sc/2S3WpLzEp4Zk
 >**TIME** - defines a time of day (no time zone)
 >**DATETIMEOFFSET** - date and time that has time zone
 
+SQL
+
+**CREATE DATABASE** Employees
+**CREATE TABLE** People
+(
+	Id **INT NOT NULL** ,
+	Email **VARCHAR(50) NOT NULL** ,
+	FirstName **VARCHAR(50)** ,
+	LastName **VARCHAR(50)**
+)
 
 
 
