@@ -101,3 +101,6 @@ ALTER TABLE Minions
 ADD TownId INT -> now this adds a TownId column
 ```
 
+
+
+TURNCATE  TABLE-> delete all the data
