@@ -103,5 +103,6 @@ ADD TownId INT -> now this adds a TownId column
 
 
 ==KEYWORDS:==
-TURNCATE  TABLE-> delete all the data from table
-DROP TABLE -> delete a whole table
+**TURNCATE  TABLE**-> delete all the data from table
+**DROP TABLE** -> delete a whole table
+**ALTER TABLE** -> edit the table
