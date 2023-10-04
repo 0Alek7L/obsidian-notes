@@ -106,3 +106,6 @@ ADD TownId INT -> now this adds a TownId column
 **TURNCATE  TABLE**-> delete all the data from table
 **DROP TABLE** -> delete a whole table
 **ALTER TABLE** -> edit the table
+ADDING A FOREIGN KEY:
+	**ADD CONSTRAINT** FK_Minions_Towns
+	**FOREIGN KEY**(TownID) **REFERENCES** Towns(Id)
