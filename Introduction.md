@@ -109,3 +109,7 @@ ADD TownId INT -> now this adds a TownId column
 ADDING A FOREIGN KEY:
 	**ADD CONSTRAINT** FK_Minions_Towns
 	**FOREIGN KEY**(TownID) **REFERENCES** Towns(Id)
+INSERTING VALUES INTO TABLE:
+	**INSERT INTO** Towns(Id, Name)
+		**VALUES** (1, 'Sofia'),
+					(2, 'Plovdiv')
