@@ -101,6 +101,7 @@ ALTER TABLE Minions
 ADD TownId INT -> now this adds a TownId column
 ```
 
+---> Height DECIMAL *(3,2) -> общо 3 цифри, като 2 от тях са след запетаята!! *
 
 ==KEYWORDS:==
 **TURNCATE  TABLE**-> delete all the data from table
