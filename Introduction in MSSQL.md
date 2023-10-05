@@ -115,6 +115,6 @@ ADD TownId INT -> now this adds a TownId column
 		**VALUES** (1, 'Sofia'),
 					(2, 'Plovdiv')
 ->UPDATING DATA:
-	**UPDATE** People
+		**UPDATE** People
 	**SET** Gender = 'f'
 	**WHERE** Id = 5
