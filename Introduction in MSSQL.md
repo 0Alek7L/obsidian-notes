@@ -104,13 +104,17 @@ ADD TownId INT -> now this adds a TownId column
 ---> Height DECIMAL *(3,2) -> общо 3 цифри, като 2 от тях са след запетаята!! *
 
 ==KEYWORDS:==
-**TURNCATE  TABLE**-> delete all the data from table
-**DROP TABLE** -> delete a whole table
-**ALTER TABLE** -> edit the table
-ADDING A FOREIGN KEY:
+->**TURNCATE  TABLE**-> delete all the data from table
+->**DROP TABLE** -> delete a whole table
+->**ALTER TABLE** -> edit the table
+->ADDING A FOREIGN KEY:
 	**ADD CONSTRAINT** FK_Minions_Towns
 	**FOREIGN KEY**(TownID) **REFERENCES** Towns(Id)
-INSERTING VALUES INTO TABLE:
+->INSERTING VALUES INTO TABLE:
 	**INSERT INTO** Towns(Id, Name)
 		**VALUES** (1, 'Sofia'),
 					(2, 'Plovdiv')
+->UPDATING DATA:
+	**UPDATE** People
+	**SET** Gender = 'f'
+	**WHERE** Id = 5
