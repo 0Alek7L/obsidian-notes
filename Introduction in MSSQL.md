@@ -118,3 +118,8 @@ ADD TownId INT -> now this adds a TownId column
 		**UPDATE** People
 	**SET** Gender = 'f'
 	**WHERE** Id = 5
+
+
+==PROECTION ->  SELECTING WHOLE COLUMNS
+SELECTION -> SELECTING ONLY ROWS==
+
