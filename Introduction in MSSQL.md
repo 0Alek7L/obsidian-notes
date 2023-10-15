@@ -122,7 +122,8 @@ ADD TownId INT -> now this adds a TownId column
 
 ==PROECTION ->  SELECTING WHOLE COLUMNS
 SELECTION -> SELECTING ONLY ROWS
-JOIN -> COMBINES TABLES BY COLUMNS==
+JOIN -> COMBINES TABLES BY COLUMNS
+DISTINCT -> WHEN SELECTING TO DISTINGUISH UNIQUE VALUES IN CERTAIN COLUMNS ------> https://prnt.sc/iJfgtBBXTcpk ==
 
 КАК ДА ИЗЛИЗА НА БЪЛГАРСКИ -> https://prnt.sc/qcDUldUFZNOb
 JOIN -> https://prnt.sc/9H3M7XOml_e4
