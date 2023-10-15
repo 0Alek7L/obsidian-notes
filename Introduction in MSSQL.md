@@ -126,4 +126,5 @@ JOIN -> COMBINES TABLES BY COLUMNS==
 
 КАК ДА ИЗЛИЗА НА БЪЛГАРСКИ -> https://prnt.sc/qcDUldUFZNOb
 JOIN -> https://prnt.sc/9H3M7XOml_e4
+CONCATENATE -> https://prnt.sc/ALjdkKyj28dg
 
