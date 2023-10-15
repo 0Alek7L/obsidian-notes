@@ -74,6 +74,13 @@ DATE & TIME -> https://prnt.sc/2S3WpLzEp4Zk
 >**TIME** - defines a time of day (no time zone)
 >**DATETIMEOFFSET** - date and time that has time zone
 
+COMPARISON OPERATORS:
+>**NOT
+>OR
+>AND
+>BETWEEN
+>IN/NOT IN
+
 SQL
 
 **CREATE DATABASE** Employees
