@@ -79,7 +79,7 @@ COMPARISON OPERATORS:
 >OR
 >AND
 >BETWEEN
->IN/NOT IN
+>IN/NOT IN -> https://prnt.sc/1pfJcu1QlQOj
 
 SQL
 
@@ -137,4 +137,5 @@ JOIN -> https://prnt.sc/9H3M7XOml_e4
 CONCATENATE -> https://prnt.sc/ALjdkKyj28dg
 **CONCAT_WS** -> https://prnt.sc/-lDoy9NVvzvQ
 JOIN X3 -> https://prnt.sc/vtt3R7yEtYMF
+COMPARISON OPERATORS -> https://prnt.sc/1pfJcu1QlQOj
 
