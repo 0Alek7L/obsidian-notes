@@ -128,4 +128,5 @@ JOIN -> COMBINES TABLES BY COLUMNS==
 JOIN -> https://prnt.sc/9H3M7XOml_e4
 CONCATENATE -> https://prnt.sc/ALjdkKyj28dg
 **CONCAT_WS** -> https://prnt.sc/-lDoy9NVvzvQ
+JOIN X3 -> https://prnt.sc/vtt3R7yEtYMF
 
