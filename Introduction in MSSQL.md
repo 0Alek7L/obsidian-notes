@@ -80,6 +80,7 @@ COMPARISON OPERATORS:
 >AND
 >BETWEEN
 >IN/NOT IN -> https://prnt.sc/1pfJcu1QlQOj
+>IS NOT NULL -> https://prnt.sc/OWM189nee7UP
 
 SQL
 
