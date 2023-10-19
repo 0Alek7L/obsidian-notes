@@ -78,4 +78,4 @@ using (SqlConnection sqlConnection = new SqlConnection(connectionString))
 
 ```
 
-ВИНАГИ ИЗПОЛЗВАЙ ==await + async== => спомага работата на сървъра!
+ВИНАГИ ИЗПОЛЗВАЙ ==await + async== => спомага работата на сървъра! (асинхронни методи)
