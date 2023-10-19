@@ -79,3 +79,13 @@ using (SqlConnection sqlConnection = new SqlConnection(connectionString))
 ```
 
 ВИНАГИ ИЗПОЛЗВАЙ ==await + async== => спомага работата на сървъра! (асинхронни методи)
+
+==ExecuteScalar==() 
+	Returns a single value - the value in the first column of the first row of the result set (as System.Object) 
+==ExecuteReader==() 
+	Returns a SqlDataReader 
+	It is a cursor over the returned records (result set) 
+	**CommandBehavior** – assigns some options 
+==ExecuteNonQuery==() 
+	Used for non-query SQL commands, e.g. INSERT, UPDATE, DELETE, CREATE 
+	Returns the number of affected rows (int)
