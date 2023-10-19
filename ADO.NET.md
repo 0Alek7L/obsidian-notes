@@ -89,3 +89,7 @@ using (SqlConnection sqlConnection = new SqlConnection(connectionString))
 ==ExecuteNonQuery==() 
 	Used for non-query SQL commands, e.g. INSERT, UPDATE, DELETE, CREATE 
 	Returns the number of affected rows (int)
+
+==SQL INJECTION -> \` OR 1=1 --
+==   
+== Това затваря апострофите на 'password' и изпълнява винаги вярно условие, От там нататък закоментира всичко останало и условието за проверка става вярно. 
