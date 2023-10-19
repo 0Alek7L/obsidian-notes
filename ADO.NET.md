@@ -9,10 +9,10 @@
 -         |              |                  |               |
 -         |              |                  |               |
 --------------------------ADO.NET-----------------------------
-----SQL Server------ODBC------OLE DB------Custom Providers---
+- SQL Server------ODBC------OLE DB------Custom Providers - - -
 -							  |
 -							  | 
----SQL-----NoSQL-----XML-----REST-----SharePoint-----Excel..---
+---SQL-----NoSQL-----XML-----REST-----SharePoint-----Excel-..-
 ```
 
 ==ORM (Object-Relational Mapping==
