@@ -78,6 +78,26 @@ using (SqlConnection sqlConnection = new SqlConnection(connectionString))
 
 ```
 
+```
+ИЗПЪЛНЯВАНЕ НА ЗАЯВКА, ЗАДАДЕНА В ОТДЕЛЕН КЛАС КАТО СТРИНГ:
+//CONNECTION STRING
+const string _connectionString = "Server=LAPTOP-FD7DC0N0\\MSSQLSERVER02;Database=MinionsDB;Integrated Security=True;";
+
+static void Main(string[] args)
+{
+	//SQL CONNECTION
+    using SqlConnection sqlConnection = new SqlConnection(_connectionString);
+    sqlConnection.Open();
+    //SQL COMMAND
+    using SqlCommand getVillainsCommand = new SqlCommand(SQLQueries.GetVillainsWithNumberOfMinions, sqlConnection);
+	//SQL READER
+	using SqlDataReader sqlDataReader = getVillainsCommand.ExecuteReader();
+    while(sqlDataReader.Read())
+    {
+        Console.WriteLine($"{sqlDataReader["Name"]} - {sqlDataReader["TotalMinions"]}");
+    }
+}
+```
 ВИНАГИ ИЗПОЛЗВАЙ ==await + async== => спомага работата на сървъра! (асинхронни методи)
 
 ==ExecuteScalar==() 
@@ -92,4 +112,4 @@ using (SqlConnection sqlConnection = new SqlConnection(connectionString))
 
 ==SQL INJECTION -> \` OR 1=1 --
 ==   
-== Това затваря апострофите на 'password' и изпълнява винаги вярно условие, От там нататък закоментира всичко останало и условието за проверка става вярно. 
+== Това затваря апострофите на 'password' и изпълнява винаги вярно условие, От там нататък закоментира всичко останало и условието за проверка става вярно.
