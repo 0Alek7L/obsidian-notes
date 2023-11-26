@@ -23,3 +23,11 @@ SQL-first model - create the tables in SQL and the ORM generates the classes
 **КОГАТО ИМА РЕФЕРЕНЦИЯ КЪМ ДРУГА ТАБЛИЦА СЕ ПИШЕ АТРИБУТ НАД PROPERTY-ТО В КЛАСА ЗА ТАБЛИЦАТА - \[ForeignKey(nameOf(Има на клас за друга таблица))]**
 
 Как изглежда DbContext => https://prnt.sc/3iTwrXdbTUAX
+
+==Change Tracking==
+	Each **DbContext** instance tracks changes made to entities
+	These tracked entities in turn drive the changes to the database when **SaveChanges** is called
+	Entity instances become tracked when they are
+	Returned from a query, executed against the database
+	Explicitly attached to the **DbContext** by **Add**, **Attach**, **Update** or similar methods
+	Detected as new entities connected to existing tracked entities
