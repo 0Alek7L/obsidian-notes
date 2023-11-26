@@ -18,3 +18,6 @@ SQL-first model - create the tables in SQL and the ORM generates the classes
 		Removing an entity/a range of entities
 		Checking for element existence
 		Accessing the count of elements
+
+==!!ВАЖНО!!==
+**КОГАТО ИМА РЕФЕРЕНЦИЯ КЪМ ДРУГА ТАБЛИЦА СЕ ПИШЕ АТРИБУТ НАД PROPERTY-ТО В КЛАСА ЗА ТАБЛИЦАТА - \[ForeignKey(nameOf(Има на клас за друга таблица))]**
