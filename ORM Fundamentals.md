@@ -21,3 +21,5 @@ SQL-first model - create the tables in SQL and the ORM generates the classes
 
 ==!!ВАЖНО!!==
 **КОГАТО ИМА РЕФЕРЕНЦИЯ КЪМ ДРУГА ТАБЛИЦА СЕ ПИШЕ АТРИБУТ НАД PROPERTY-ТО В КЛАСА ЗА ТАБЛИЦАТА - \[ForeignKey(nameOf(Има на клас за друга таблица))]**
+
+Как изглежда DbContext => https://prnt.sc/3iTwrXdbTUAX
