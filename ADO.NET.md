@@ -42,11 +42,8 @@ SqlConnection
 
 --**SqlConnection CLASS**--
 SqlConnection con = new SqlConnection(
-	@"Server=LAPTOP-FD7DC0N0\\MSSQLSERVER02;
-	Database=SoftUni;
-	TrustServerCertificate=True;
-	Trusted_Connection=True;	
-"); con.Open();
+	@);
+	 con.Open();
 
 ==SYNTAX==
 ```
