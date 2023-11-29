@@ -35,3 +35,4 @@ SQL-first model - create the tables in SQL and the ORM generates the classes
 Как изглежда DbContext => https://prnt.sc/3iTwrXdbTUAX
 Създаване на ново entity => https://prnt.sc/XvzeJuF8egvj
 
+==4 NuGet packages =>== https://prnt.sc/euE_qPRBHIvA
