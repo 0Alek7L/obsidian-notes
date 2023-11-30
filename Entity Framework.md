@@ -7,3 +7,5 @@ One-to-many =>
 	https://prnt.sc/T2Y46O1wbvmq 
 	1 - https://prnt.sc/dl7zQNZRXbZg
 	2 - https://prnt.sc/OuC4BaNzNzB7
+	3 - https://prnt.sc/32W890JYDx-S
+Many-to-many => 
