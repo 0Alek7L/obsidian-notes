@@ -8,4 +8,6 @@ One-to-many =>
 	1 - https://prnt.sc/dl7zQNZRXbZg
 	2 - https://prnt.sc/OuC4BaNzNzB7
 	3 - https://prnt.sc/32W890JYDx-S
-Many-to-many => 
+Many-to-many =>
+	https://prnt.sc/cs0Nax4T7-T1
+	1 - 
