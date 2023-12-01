@@ -20,3 +20,17 @@ Many-to-many =>
 attached object -> следи се от change tracker
 dettached object -> не се следи от change tracker
 reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
+
+**Когато данните се изкарват и не са нужни промени, те са detached!!**
+**Когато данните трябва да се преправят, те са attached!!**
+
+
+Ако искаме да променим employee когато е detached:
+	var employee = await context.Employees
+		.Where(e=>e.EmployeeId\==1)
+		.AsNoTracking()
+		.FirstOrDefaultAsync();
+	var entry = context.Entry(employee);
+	entry.State = EntityState.Modified;
+	employee.FirstName = "Grigor";
+	await context.SaveChanges();
