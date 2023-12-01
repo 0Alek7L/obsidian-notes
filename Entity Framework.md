@@ -24,6 +24,8 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 **Когато данните се изкарват и не са нужни промени, те са detached!!**
 **Когато данните трябва да се преправят, те са attached!!**
 
+==Entity Framework Plus==
+	updating and deleting ->https://prnt.sc/XDOe34oc0-wX
 
 Ако искаме да променим employee когато е detached:
 	var employee = await context.Employees
