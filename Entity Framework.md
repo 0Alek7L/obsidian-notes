@@ -13,3 +13,6 @@ One-to-many =>
 Many-to-many =>
 	https://prnt.sc/cs0Nax4T7-T1
 	1 - 
+
+==EXECUTING STORED PROCEDURES== => https://prnt.sc/SusyUFbsok6L
+(ЕКСПЛИЦИТНО ПАРАМЕТИРИЗИРАНЕ)
