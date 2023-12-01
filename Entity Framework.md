@@ -16,3 +16,7 @@ Many-to-many =>
 
 ==EXECUTING STORED PROCEDURES== => https://prnt.sc/SusyUFbsok6L
 (ЕКСПЛИЦИТНО ПАРАМЕТИРИЗИРАНЕ)
+
+attached object -> следи се от change tracker
+dettached object -> не се следи от change tracker
+reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
