@@ -44,7 +44,7 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 	Дърпа цялата информация, която ще е нужна наведнъж
 	Използва се .Include() и .ThenInclude()
 **Lazy**
-
+	Ужасно, прави много заявки и е бавно
 **Explicit**
 	https://prnt.sc/E9wBGhkn1ZZt
 	Всяко нещо се взима със специална заявка
