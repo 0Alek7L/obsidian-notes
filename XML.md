@@ -16,6 +16,8 @@ Creating XML with XElement => https://prnt.sc/m5pHoS_nIGG3
 
 Serializing to File => https://prnt.sc/V5mVptywXYFb
 
+custom method **SerializeObject** => https://prnt.sc/VnrgiROxOlyG
+
 **SetElementValue**
 element.SetElementValue("quantity",0);
 	Ако няма такъв елемент го създава и му дава стойност
