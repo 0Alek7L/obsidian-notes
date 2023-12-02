@@ -44,3 +44,4 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 **Lazy**
 
 **Explicit**
+	Всяко нещо се взима със специална заявка
