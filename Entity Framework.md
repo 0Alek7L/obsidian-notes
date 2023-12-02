@@ -42,6 +42,7 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 **Eager**
 	
 	Дърпа цялата информация, която ще е нужна наведнъж
+	Използва се .Include() и .ThenInclude()
 **Lazy**
 
 **Explicit**
