@@ -22,6 +22,8 @@ custom method **SerializeObject** => https://prnt.sc/VnrgiROxOlyG
 
 **Use of serialization and desirialization ->** https://prnt.sc/mEJCDwzBB0sY
 
+Attributes => https://prnt.sc/HJBMFwMMl5z6
+
 **SetElementValue**
 element.SetElementValue("quantity",0);
 	Ако няма такъв елемент го създава и му дава стойност
