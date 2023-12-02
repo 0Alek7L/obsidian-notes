@@ -40,7 +40,7 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 
 ==LOADING==
 **Eager**
-	
+	https://prnt.sc/AygEVYu2pXo1
 	Дърпа цялата информация, която ще е нужна наведнъж
 	Използва се .Include() и .ThenInclude()
 **Lazy**
