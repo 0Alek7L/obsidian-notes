@@ -36,3 +36,11 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 	entry.State = EntityState.Modified;
 	employee.FirstName = "Grigor";
 	await context.SaveChanges();
+
+
+==LOADING==
+**Eager**
+
+**Lazy**
+
+**Explicit**
