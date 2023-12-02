@@ -15,3 +15,4 @@ var newObject = JsonSerializer.Deserialize<\Person>(json);
 --
 
 **SERIALIZATION OPTIONS ->** https://prnt.sc/hqJ9OFU8qOrb
+Accessing values of the properties of deserialized anonymous object - https://prnt.sc/uAjQzebMvqUq
