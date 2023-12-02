@@ -1,4 +1,5 @@
 #EntityFramework 
+using System.Xml.Linq;
 
 **TAGS**
 <\tagName>
@@ -6,10 +7,12 @@
 <\/tagName>
 
 **Parsing XML** => https://prnt.sc/pOFfBBgxV4FA
+
 Working with XML document -> https://prnt.sc/zLTBGdLZ7l-3
 	https://prnt.sc/HrFZ40Jp54Rt
-Creating XML with XElement => https://prnt.sc/m5pHoS_nIGG3
 	
+Creating XML with XElement => https://prnt.sc/m5pHoS_nIGG3
+	https://prnt.sc/Qu8zHh11-YbT
 
 **SetElementValue**
 element.SetElementValue("quantity",0);
