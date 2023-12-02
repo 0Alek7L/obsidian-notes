@@ -50,3 +50,5 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 	https://prnt.sc/E9wBGhkn1ZZt
 	Всяко нещо се взима със специална заявка
 	Използва се .Reference().Load() и .Collection().Load()
+
+==Cascade delete== => https://prnt.sc/Et2IXSqCXcVP 
