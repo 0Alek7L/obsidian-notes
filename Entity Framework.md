@@ -44,4 +44,6 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 **Lazy**
 
 **Explicit**
+	https://prnt.sc/E9wBGhkn1ZZt
 	Всяко нещо се взима със специална заявка
+	Използва се .Reference().Load() и .Collection().Load()
