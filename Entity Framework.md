@@ -40,7 +40,8 @@ reattaching deattached object -> https://prnt.sc/WIeh-tkXwUUY
 
 ==LOADING==
 **Eager**
-
+	
+	Дърпа цялата информация, която ще е нужна наведнъж
 **Lazy**
 
 **Explicit**
